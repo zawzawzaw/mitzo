@@ -1,0 +1,5 @@
+# http://www.cyberciti.biz/faq/why-my-apache-server-side-include-ssi-is-not-working/
+Options +Includes
+
+AddType text/html .html
+AddHandler server-parsed .html
