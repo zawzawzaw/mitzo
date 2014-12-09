@@ -1,0 +1,175 @@
+#mitzo-footer{
+  background: #1d1c1c;
+  color: #ffffff;
+  padding-top: 34px;
+  width: 100%;
+
+
+  h4{
+    //.gotham-bold;
+    .gotham-light;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0em;
+    margin-bottom: 28px;
+    text-transform: uppercase;
+  }
+
+  .title{
+    margin-top: -1px;
+    letter-spacing: 0.02em;
+  }
+
+  //    _     ___ _   _ _  ______  
+  //   | |   |_ _| \ | | |/ / ___| 
+  //   | |    | ||  \| | ' /\___ \ 
+  //   | |___ | || |\  | . \ ___) |
+  //   |_____|___|_| \_|_|\_\____/ 
+  //                               
+
+  #footer-links{
+    ul{
+      margin-bottom: 41px;
+
+      > li{
+        height: 20px;
+        margin-bottom: 14px;
+
+        > a{
+          font-size: 12px;
+          line-height: 20px;
+          height: 20px;
+          color: #ffffff;
+
+          &:hover{
+            color: @light-gold;
+          }
+        }
+      }
+    }
+  }
+
+
+  //    ____   ___   ____ ___    _    _     
+  //   / ___| / _ \ / ___|_ _|  / \  | |    
+  //   \___ \| | | | |    | |  / _ \ | |    
+  //    ___) | |_| | |___ | | / ___ \| |___ 
+  //   |____/ \___/ \____|___/_/   \_\_____|
+  //                                        
+
+  #social-icons{
+    width: 150px;
+    margin: 0px auto;
+
+    .title{
+      text-align: center;
+      margin-bottom: 11px;
+    }
+
+    ul{
+      font-size: 0px;
+      text-align: center;
+
+      li{
+        .display-inline-block();
+        margin-right: 10px;
+
+        &:last-child{
+          margin-right: 0px;
+        }
+
+        a{
+          display: block;
+          
+          &.facebook{
+            .social_icon_facebook;
+          }
+          &.twitter{
+            .social_icon_twitter;
+          }
+          &.instagram{
+            .social_icon_instagram;
+          }
+
+
+        }
+
+      }
+    }
+  }
+
+  //    __  __    _    ___ _     ___ _   _  ____ 
+  //   |  \/  |  / \  |_ _| |   |_ _| \ | |/ ___|
+  //   | |\/| | / _ \  | || |    | ||  \| | |  _ 
+  //   | |  | |/ ___ \ | || |___ | || |\  | |_| |
+  //   |_|  |_/_/   \_\___|_____|___|_| \_|\____|
+  //                                             
+
+  #mailing-list{
+
+    #footer-mailing-list{
+      position: relative;
+      width: 100%;
+      height: 28px;
+
+      #mailing-list-email-txt{
+        display: block;
+        width: 100%;
+        height: 28px;
+        line-height: 28px;
+        padding: 8px;
+        padding-right: 20px;
+        border: none;
+        color: #636363;
+      }
+      #mailing-list-email-submit{
+
+        .icon_mailing_list_arrow;
+        width: 28px;
+        height: 28px;
+        position: absolute;
+        top: 0px;
+        right: 2px;
+
+        border: none;
+        outline: none;
+        .transition-in();
+        cursor: pointer;
+
+
+
+        text-indent: -9999px;
+
+        &:hover{
+          .opacity(0.5);
+        }
+      }
+
+    }
+  }
+
+
+  //     ____ ___  ______   ____        ______  ___ _____ _____ 
+  //    / ___/ _ \|  _ \ \ / /\ \      / /  _ \|_ _|_   _| ____|
+  //   | |  | | | | |_) \ V /  \ \ /\ / /| |_) || |  | | |  _|  
+  //   | |__| |_| |  __/ | |    \ V  V / |  _ < | |  | | | |___ 
+  //    \____\___/|_|    |_|     \_/\_/  |_| \_\___| |_| |_____|
+  //                                                            
+
+  .copywrite-container{
+    hr{
+      border: none;
+      border-bottom: 1px solid #8e8e8e;
+    }
+
+    p{
+      margin-top: 8px;
+      margin-bottom: 24px;
+
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+      font-size: 12px;
+      line-height: 20px;
+
+    }
+  }
+}

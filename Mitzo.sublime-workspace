@@ -1,0 +1,1535 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"Tween",
+				"TweenMax"
+			],
+			[
+				"curren",
+				"current_page_id"
+			],
+			[
+				"position",
+				"position_tween_time"
+			],
+			[
+				"dis",
+				"dispatchEvent"
+			],
+			[
+				"target",
+				"target_y"
+			],
+			[
+				"posi",
+				"position"
+			],
+			[
+				"pause",
+				"pause_tween"
+			],
+			[
+				"scrol",
+				"scroll_position"
+			],
+			[
+				"page",
+				"page_array"
+			],
+			[
+				"op",
+				"options"
+			],
+			[
+				"scrol_p",
+				"scroll_percent"
+			],
+			[
+				"window",
+				"window_height"
+			],
+			[
+				"tar",
+				"target_x"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"killT",
+				"killTweensOf"
+			],
+			[
+				"has_l",
+				"has_loaded_image_array"
+			],
+			[
+				"image",
+				"image_item"
+			],
+			[
+				"image_arra",
+				"image_array_container"
+			],
+			[
+				"on_mouse",
+				"on_mouseover"
+			],
+			[
+				"photo",
+				"photo_grid"
+			],
+			[
+				"wi",
+				"width	.width()"
+			],
+			[
+				"update",
+				"update_container_layout"
+			],
+			[
+				"hide",
+				"hide_preloader"
+			],
+			[
+				"photogra",
+				"photographer_category_image_loader"
+			],
+			[
+				"direct",
+				"director_category_image_loader"
+			],
+			[
+				"on_photo",
+				"on_photographer_category_image_loader_event"
+			],
+			[
+				"on_direc",
+				"on_director_category_image_loader_event"
+			],
+			[
+				"elemen",
+				"element_width"
+			],
+			[
+				"contain",
+				"container_height"
+			],
+			[
+				"perce",
+				"percent"
+			],
+			[
+				"item_",
+				"item_width"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"elem",
+				"element"
+			],
+			[
+				"imag",
+				"image"
+			],
+			[
+				"image_",
+				"image_data"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"mart",
+				"margin-right"
+			],
+			[
+				"on_win",
+				"on_window_resize"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"mon",
+				"montserrat-regular"
+			],
+			[
+				"delay",
+				"delayed_hide_preloader"
+			],
+			[
+				"on_",
+				"on_image_load_progress"
+			],
+			[
+				"on_image",
+				"on_image_loader_event"
+			],
+			[
+				"load_image",
+				"load_images_complete"
+			],
+			[
+				"equip",
+				"equipment_video"
+			],
+			[
+				"equie",
+				"equipment_video"
+			],
+			[
+				"mont",
+				"montserrat-regular"
+			],
+			[
+				"displ",
+				"display-inline-block"
+			],
+			[
+				"targe",
+				"target_y"
+			],
+			[
+				"page_i",
+				"page_item_height"
+			],
+			[
+				"pie",
+				"pie_item"
+			],
+			[
+				"on_mou",
+				"on_mouseover"
+			],
+			[
+				"subject",
+				"subject_str"
+			],
+			[
+				"expand",
+				"expand_bio"
+			],
+			[
+				"header",
+				"header_timeline"
+			],
+			[
+				"panel_",
+				"panel_button_container"
+			],
+			[
+				"panel",
+				"panel_array"
+			],
+			[
+				"on_bio",
+				"on_bio_prev_page_button_click"
+			],
+			[
+				"mouse",
+				"mouse_click_obj"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"po",
+				"pointer"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"disp",
+				"display-inline-block"
+			],
+			[
+				"Twe",
+				"TweenMax"
+			],
+			[
+				"cir",
+				"circle"
+			],
+			[
+				"lab",
+				"label_txt"
+			],
+			[
+				"circ",
+				"circle_array"
+			],
+			[
+				"la",
+				"label_txt"
+			],
+			[
+				"tart",
+				"target_x"
+			],
+			[
+				"origni",
+				"original_width"
+			],
+			[
+				"origina",
+				"original_height"
+			],
+			[
+				"display",
+				"display-inline-block"
+			],
+			[
+				"paddi",
+				"padding-right"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"padin",
+				"padding-bottom"
+			],
+			[
+				"borde",
+				"border"
+			],
+			[
+				"sepera",
+				"seperator_line"
+			],
+			[
+				"windo",
+				"window"
+			],
+			[
+				"marin",
+				"margin"
+			],
+			[
+				"pixi",
+				"pixi_movieclip"
+			],
+			[
+				"window_",
+				"window_height"
+			],
+			[
+				"current",
+				"current_country_data"
+			],
+			[
+				"current_coun",
+				"current_country_index"
+			],
+			[
+				"index",
+				"index_param"
+			],
+			[
+				"data",
+				"data_array"
+			],
+			[
+				"butto",
+				"button"
+			],
+			[
+				"back",
+				"backstretch_index"
+			],
+			[
+				"button",
+				"button_container"
+			],
+			[
+				"bg_",
+				"bg_array"
+			],
+			[
+				"transit",
+				"transition-in"
+			],
+			[
+				"trans",
+				"transition-in"
+			],
+			[
+				"curr",
+				"current_country_data"
+			],
+			[
+				"data_",
+				"data_obj"
+			],
+			[
+				"retu",
+				"return_obj"
+			],
+			[
+				"change",
+				"change_country"
+			],
+			[
+				"delaye",
+				"delayed_change_country"
+			],
+			[
+				"descr",
+				"description_element"
+			],
+			[
+				"json",
+				"json_parser"
+			],
+			[
+				"bubb",
+				"bubble_video"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"delayed_",
+				"on_delayed_enable_address"
+			],
+			[
+				"inter",
+				"internal_update_page"
+			],
+			[
+				"return",
+				"return_str"
+			],
+			[
+				"repla",
+				"replace"
+			],
+			[
+				"hre",
+				"href_param"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"movie",
+				"movieclip_container"
+			],
+			[
+				"popco",
+				"popcorn_array"
+			],
+			[
+				"image_dom",
+				"image_dom_array"
+			],
+			[
+				"conta",
+				"contains	.contains()"
+			],
+			[
+				"container",
+				"masonry_container"
+			],
+			[
+				"desc",
+				"description"
+			],
+			[
+				"cook",
+				"cookie_data_array"
+			],
+			[
+				"check",
+				"check_id_cookie"
+			],
+			[
+				"add_item",
+				"internal_add_item"
+			],
+			[
+				"cookie",
+				"cookie_data_array"
+			],
+			[
+				"initia",
+				"initial_index"
+			],
+			[
+				"scroll",
+				"scroll_y_max"
+			],
+			[
+				"snap",
+				"snap_to"
+			],
+			[
+				"poin_",
+				"point_02"
+			],
+			[
+				"point_",
+				"point_01"
+			],
+			[
+				"scro",
+				"scroll_y"
+			],
+			[
+				"max_",
+				"max_row"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "02/index.html",
+			"settings":
+			{
+				"buffer_size": 4536,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "02/css/mitzo/home.less",
+			"settings":
+			{
+				"buffer_size": 3523,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "02/js/mitzo/MitzoHomePage.js",
+			"settings":
+			{
+				"buffer_size": 3740,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "02/css/mitzo/header.less",
+			"settings":
+			{
+				"buffer_size": 1564,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "02/css/style.less",
+			"settings":
+			{
+				"buffer_size": 339,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 235.0,
+		"selected_items":
+		[
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"hmtl",
+				"Set Syntax: HTML (Tcl)"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"JS",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"HTML",
+				"Set Syntax: HTML"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"h",
+				"Set Syntax: HTML"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"READ",
+				"ReadmePlease"
+			],
+			[
+				"",
+				"ASCII Decorator: Default Font"
+			],
+			[
+				"read",
+				"ReadmePlease"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"snip",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"plain",
+				"Set Syntax: Plain Text"
+			]
+		],
+		"width": 386.0
+	},
+	"console":
+	{
+		"height": 113.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Localhost/git/mitzo/02/js/manic/ManicPinContainer.js",
+		"/C/Users/jairu_000/Desktop/AdobeWebM-master/AdobeWebM-master/README.md",
+		"/D/Localhost/git/sga/02/js/manic/ManicScrollContainer.js",
+		"/D/Localhost/git/sga/02/js/manic/ManicPinContainer.js",
+		"/D/Localhost/git/sga/IDEAS FOR 03",
+		"/D/Localhost/git/sga/02/html/pin_container.html",
+		"/D/Localhost/git/sga/02/css/manic/pin_container.less",
+		"/D/Localhost/git/sga/02/css/sga/sga_general.less",
+		"/D/Localhost/git/sga/02/js/sga/components/SgaCloudBG.js",
+		"/D/Localhost/git/sga/02/js/sga/section/SgaAboutSection.js",
+		"/D/Localhost/git/sga/02/inc/menu.php",
+		"/D/Localhost/git/sga/02/js/sga/components/SgaTearsheet.js",
+		"/D/Localhost/git/sga/02/html/arrow.html",
+		"/D/Localhost/git/sga/02/css/sga/home/studio_landing_v2.less",
+		"/D/Localhost/git/sga/02/css/sga/home/equipment_landing.less",
+		"/D/Localhost/git/sga/02/js/manic/ManicImageSequenceCanvas.js",
+		"/D/Localhost/git/sga/02/js/sga/pages/Sga.HomePage.js",
+		"/D/Localhost/git/sga/02/index.php",
+		"/D/Localhost/git/sga/02/js/manic/Manic.js",
+		"/D/Localhost/git/sga/02/css/sga/home/studio_landing.less",
+		"/D/Localhost/git/sga/02/css/sga/components/sga_preloader.less",
+		"/D/Localhost/git/sga/01/css/manic/scroll_container.less",
+		"/D/Localhost/git/sga/02/css/style.less",
+		"/D/Localhost/git/sga/02/html/scroll_container.html",
+		"/D/Localhost/git/sga/02/html/people.html",
+		"/D/Localhost/git/sga/02/html/scroll_container_2.html",
+		"/D/Localhost/git/sga/02/html/timeline.html",
+		"/D/Localhost/git/sga/03/02_notepad/notepad.js",
+		"/D/Localhost/git/sga/03/closure/goog/demos/button.html",
+		"/D/Localhost/git/sga/02/js/sga/components/SgaCustomPhotoResizer.js",
+		"/D/Localhost/git/sga/02/js/sga/pages/Sga.PhotographPage.js",
+		"/D/Localhost/git/sga/02/js/sga/components/SgaHomePhotoGrid.js",
+		"/D/Localhost/git/sga/02/json/home_photographers.json",
+		"/D/Localhost/git/sga/02/js/sga/section/SgaGridSection.js",
+		"/D/Localhost/git/sga/dec3.md",
+		"/D/Localhost/git/sga/02/json/home_directors_category.json",
+		"/D/Localhost/git/sga/02/json/home_directors.json",
+		"/D/Localhost/git/sga/02/json/home_photographers_category.json",
+		"/D/Localhost/git/sga/02/css/sga/home/grid_landing.less",
+		"/D/Localhost/git/sga/02/html/photo_grid_2.html",
+		"/D/Localhost/git/sga/02/js/sga/section/SgaAboutAwardsSection.js",
+		"/D/Localhost/git/sga/02/js/sga/section/SgaAboutPeopleSection.js",
+		"/D/Localhost/git/sga/02/about/awards/index.php",
+		"/D/Localhost/git/sga/02/js/sga/components/SgaArrow.js",
+		"/D/Localhost/git/sga/02/css/sga/sga_images.less",
+		"/D/Localhost/git/sga/02/css/lib/mixins.less",
+		"/D/Localhost/git/sga/02/js/sga/components/SgaPopcornBG3.js",
+		"/D/Localhost/git/sga/02/css/sga/home/contact_landing.less",
+		"/D/Localhost/git/sga/02/js/sga/SgaDesktopMenu.js",
+		"/D/Localhost/git/sga/02/js/sga/Sga.Page.js",
+		"/D/Localhost/git/sga/02/js/manic/ManicImageLoader.js",
+		"/D/Localhost/git/sga/01/js/manic/Manic.js",
+		"/D/Localhost/git/sga/02/js/sga/section/SgaHomePhotogridSection.js",
+		"/D/Localhost/git/sga/02/about/clients/index.php",
+		"/D/Localhost/git/sga/02/css/sga/about/about_clients.less",
+		"/D/Localhost/git/sga/02/js/sga/section/SgaAboutClientSection.js",
+		"/D/Localhost/git/sga/02/json/hiro_k_photos.json",
+		"/D/Localhost/git/sga/03/closure/goog/demos/advancedtooltip.html",
+		"/D/Localhost/git/sga/02/css/sga/photo/photo_gallery_grid.less",
+		"/D/Localhost/git/sga/02/js/manic/all.js",
+		"/D/Localhost/git/sga/02/js/sga/components/SgaAboutPeopleBG.js",
+		"/D/Localhost/git/sga/02/html/contact.html",
+		"/D/Localhost/distillery/v/js/jquery/jquery.image_loader.js",
+		"/D/Localhost/git/sga/02/js/manic/ManicJsonParser.js",
+		"/D/Localhost/git/sga/02/css/sga/photo/photo_tearsheet.less",
+		"/D/Localhost/git/sga/02/html/checkbox.html",
+		"/D/Localhost/git/sga/02/js/manic/ManicFixedColumnMasonry.js",
+		"/C/Users/jairu_000/Desktop/New folder/quick_edit.php",
+		"/C/Users/jairu_000/Desktop/New folder/miscellaneous.php",
+		"/C/Users/jairu_000/Desktop/New folder/theme.php",
+		"/C/Users/jairu_000/Desktop/New folder/custom_fields.php",
+		"/C/Users/jairu_000/Desktop/post.php",
+		"/C/Users/jairu_000/Desktop/New folder/custom_post_types.php",
+		"/C/Users/jairu_000/Desktop/functions.php",
+		"/C/Users/jairu_000/Desktop/taxonomy-roles.php",
+		"/D/Localhost/git/sga/02/js/libs/pixi_dec3_2014/pixi.dev.js",
+		"/D/Localhost/git/sga/02/about/people/index.php",
+		"/D/Localhost/git/sga/02/css/sga/components/sga_desktop_menu.less",
+		"/D/Localhost/git/sga/dec2.md",
+		"/D/Localhost/git/sga/02/js/sga/pages/Sga.PhotographerPage.js",
+		"/D/Localhost/git/sga/02/css/sga/photo/photo_gallery_masonry.less",
+		"/D/Localhost/git/sga/02/photographer/alex-bruessing/index.php",
+		"/D/Localhost/git/sga/02/photographer/alex-bruessing/photo-01/index.php",
+		"/D/Localhost/git/sga/02/html/blank.html",
+		"/D/Localhost/git/sga/02/css/sga/photo/photo_gallery_individual.less",
+		"/D/Localhost/git/sga/02/js/jquery/jquery.disablescroll.js",
+		"/D/Localhost/git/sga/03/02_notepad/notepad.htm",
+		"/D/Localhost/git/sga/02/css/sga/home/about_landing.less",
+		"/D/Localhost/git/sga/02/js/sga/section/SgaContactSection.js",
+		"/D/Localhost/git/sga/02/js/manic/ManicGoogleMap.js",
+		"/D/Localhost/git/sga/02/js/jquery/jquery.custom_google_map.js",
+		"/D/Localhost/git/sga/01/_reference/w/about_landing.html",
+		"/D/Localhost/git/sga/02/css/sga/about/about_awards.less",
+		"/D/Localhost/git/sga/dec1.md",
+		"/D/Localhost/git/sga/02/json/studio.json",
+		"/D/Localhost/git/sga/02/css/sga/blog/blog_page_content.less",
+		"/D/Localhost/git/sga/02/blog/sample_page_2/index.php",
+		"/D/Localhost/git/sga/02/json/alex_bruessing_photos.json",
+		"/D/Localhost/git/sga/02/js/sga/components/SgaAboutGraphV2.js",
+		"/D/Localhost/git/sga/02/js/manic/ManicScrollSnap.js",
+		"/D/Localhost/git/sga/02/js/sga/components/SgaAboutGraph.js",
+		"/D/Localhost/git/sga/02/json/people.json",
+		"/D/Localhost/git/sga/02/fonts/montserrat/montserrat-bold.ttf",
+		"/D/Localhost/git/sga/02/js/sga/section/SgaStudioSection2.js",
+		"/D/Localhost/git/sga/02/js/sga/section/SgaFeaturedPhotoSection.js",
+		"/D/Localhost/git/sga/02/js/manic/ManicVideoJSPlayer.js",
+		"/D/Localhost/git/sga/02/js/sga/section/SgaEquipmentSection.js",
+		"/D/Localhost/git/sga/02/css/sga/home/motion_picture_landing.less",
+		"/D/Localhost/git/sga/02/blog/sample_page/index.php",
+		"/D/Campaigns/17 July/SGA/Original Assets/23 files from server/people description/Shanghai/Ahyi.txt",
+		"/D/Campaigns/17 July/SGA/Original Assets/23 files from server/people description/Ho Chi Minh City/SGV_DUNG.rtf",
+		"/D/Campaigns/17 July/SGA/Original Assets/23 files from server/people description/Ho Chi Minh City/SGV_CAU.rtf",
+		"/D/Campaigns/17 July/SGA/Original Assets/23 files from server/people description/Ho Chi Minh City/SGV_VU.rtf",
+		"/D/Campaigns/17 July/SGA/Original Assets/23 files from server/people description/Ho Chi Minh City/SGV_QUYNH.rtf",
+		"/D/Campaigns/17 July/SGA/Original Assets/23 files from server/people description/Ho Chi Minh City/SGV_NGOC.rtf",
+		"/D/Campaigns/17 July/SGA/Original Assets/23 files from server/people description/Ho Chi Minh City/SGV_KHOA.rtf",
+		"/D/Campaigns/17 July/SGA/Original Assets/23 files from server/people description/Ho Chi Minh City/SGV_MUC.rtf",
+		"/D/Campaigns/17 July/SGA/Original Assets/23 files from server/people description/Ho Chi Minh City/SGV_JOHAN.rtf",
+		"/D/Localhost/git/sga/02/css/sga/about/about_people.less",
+		"/D/Localhost/git/sga/nov27.md",
+		"/D/Localhost/git/sga/02/js/libs/pixi.dev.js",
+		"/D/Localhost/git/sga/02/js/manic/ManicPixiCanvas.js",
+		"/D/Localhost/git/sga/02/js/sga/components/SgaAboutAwardsTopFiveGraphV2.js",
+		"/D/Localhost/git/sga/02/css/sga/photo/featured_photo.less",
+		"/D/Localhost/git/sga/02/inc/head.php",
+		"/D/Localhost/git/sga/02/popcorn/11/index.html",
+		"/D/Localhost/git/sga/02/popcorn/11/SgaPopcornBG3.js",
+		"/D/Localhost/git/sga/02/popcorn/11/SgaPopcornBG4.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"D:\\Localhost\\git\\sga\\02\\js",
+			"D:\\Localhost\\git\\sga\\02",
+			"D:\\Localhost\\git\\sga\\02\\js",
+			"D:\\Localhost\\git\\sga",
+			"D:\\Localhost\\git\\sga\\02\\css\\sga",
+			"D:\\Localhost\\git\\sga\\02\\js\\sga",
+			"D:\\Localhost\\git\\sga\\02\\js\\manic",
+			"D:\\Localhost\\git\\sga\\02\\css\\sga",
+			"D:\\Localhost\\git\\sga\\02\\css\\manic",
+			"D:\\Localhost\\git\\sga\\02\\js\\sga",
+			"D:\\Localhost\\git\\sga\\02\\js\\manic",
+			"D:\\Localhost\\git\\sga\\02\\js\\sga",
+			"D:\\Localhost\\git\\sga\\02\\js\\manic",
+			"",
+			"D:\\Localhost\\git\\reignwood",
+			"C:\\Users\\jairu_000\\AppData\\Roaming\\Sublime Text 2\\Packages\\WordPress\\Snippets",
+			"",
+			"about_us.html",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"video/equipment2_mute/",
+			"video/",
+			"custom-fullscreen-video",
+			"bottom-",
+			"internal_update_page",
+			"black",
+			"on_scroll_container_event",
+			"next_page",
+			"is_rendering",
+			"is_render",
+			"display_percent",
+			"render_once",
+			"display_percent",
+			"is_rendering",
+			"internal_update_page",
+			"on_tab_section_change_event",
+			"on_featured_photo_section_change",
+			"create_parallax_animation_02",
+			"create_safari_bg_fix",
+			"preload_image_array",
+			"arrow_about",
+			"arrow_featured",
+			"max_time",
+			"time_end",
+			"on_current_page_update",
+			"this.current_page_id",
+			"on_current_page_update",
+			"update_current",
+			"time =",
+			"on_pause_tween_update",
+			"on_animate_in_update",
+			"user_is_active",
+			"on_animation_tween_stop",
+			"update_page_array_percent",
+			"get_page_for_id",
+			"on_animation_tween_stop",
+			"create_tween",
+			"create_pause",
+			"user_is_active",
+			"create_position_tween",
+			"animation_tween",
+			"page_id_array",
+			"sort_items_by_oldest",
+			"sort_items_by_oldest\n",
+			"sort_items_by_oldest",
+			"sort_items_by_photographer",
+			"on_sort_button_click",
+			"index",
+			"scroll_position",
+			"max_position_y",
+			"on_position_tween_update",
+			"delayed_on_position_tween_update",
+			"on_window_scroll_stop",
+			"this.position_y",
+			"this.container",
+			"PinContainer",
+			"NAME_OF_PLUGIN",
+			"NAMESPACE",
+			"script",
+			"on_photo_preload_complete",
+			"http://localhost/git/sga/02/",
+			"create_image_sequence",
+			"create_image_sequence_canvas",
+			"create_image_sequence",
+			"backstre",
+			"backstretch-overlay",
+			"studio-landing",
+			"sga-arrow",
+			"lass=\"pin-page\">",
+			"Manic",
+			"\"name\":",
+			"name",
+			"this.is_image_loaded",
+			"load_image",
+			"is_image_loaded",
+			"this.custom_photo_resizer",
+			"start_json_load",
+			"this.bg_array",
+			"process_json",
+			"this.bg_array",
+			"on_custom_photo_resizer_change",
+			"on_image_change",
+			"create_photo_resizer",
+			"create_data",
+			"preload_image_array",
+			"links",
+			"create_scroll_magic",
+			"about-awards-page-03",
+			"sga-menu-arrow-container",
+			"this.controller",
+			"icon-image",
+			"data-img",
+			".png",
+			"\"image\"",
+			"sga-preload-div",
+			"removeClass",
+			"menu-lightbox-copy",
+			"view ligh",
+			"\"type\": \"director\",",
+			"clone",
+			"this.data.image_array",
+			"item_template",
+			"item-image-array",
+			"new Manic.ImageLoader",
+			"url",
+			"\"categories\": [",
+			"\"name\": \"ALEK BRUESSING\",",
+			"\"categories\"",
+			"\"type\": \"photographer\",",
+			"photographer",
+			"\"image\":",
+			"\"name\"",
+			"\"name\":",
+			"create_scroll_snap",
+			"panel-contain",
+			"on_window_",
+			"about-client-list-container",
+			"about-client-list-alphabetical",
+			"wp-",
+			"shorten-kerning",
+			"h3",
+			"locator",
+			"home-contact-map-container",
+			"home-contact-footer-container",
+			"on_scroll_progress",
+			"show_photographers",
+			"#photographers-page",
+			"on_menu_open"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"&amp;",
+			"_",
+			"//LOG && console",
+			"\\",
+			"",
+			"_",
+			"\\",
+			"_",
+			"harriet-text-medium-italic",
+			"index.shtml",
+			"<p>cooler solutions</p>",
+			"<img src=\"images/banner/thumbnail/trax_solutions_banner_05.jpg\" alt=\"\">",
+			"<img src=\"images/banner/thumbnail/trax_solutions_banner_04.jpg\" alt=\"\">",
+			"<img src=\"images/banner/thumbnail/trax_solutions_banner_03.jpg\" alt=\"\">",
+			"<img src=\"images/banner/thumbnail/trax_solutions_banner_02.jpg\" alt=\"\">",
+			"<img src=\"images/banner/thumbnail/trax_solutions_banner_01.jpg\" alt=\"\">",
+			"<p>For a consultation, please email us or fill out our contact form ",
+			"<p>For a consultation, please email us or fill out our contact form",
+			"<p>Find out more - ",
+			"<a href=\"about_us.html#contact_us\" class=\"slanted-purple-button\">here</a>",
+			"<meta name=\"description\" content=\"Trax Image Recognition. We Capture Retail.\">",
+			"",
+			"page-about",
+			"about_us.html",
+			"/",
+			"/surbana/07",
+			"http://localhost/surbana/07",
+			"/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "02/index.html",
+					"settings":
+					{
+						"buffer_size": 4536,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2823,
+								2823
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 312.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "02/css/mitzo/home.less",
+					"settings":
+					{
+						"buffer_size": 3523,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3092,
+								3092
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1482.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "02/js/mitzo/MitzoHomePage.js",
+					"settings":
+					{
+						"buffer_size": 3740,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2188,
+								2188
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 342.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "02/css/mitzo/header.less",
+					"settings":
+					{
+						"buffer_size": 1564,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								582,
+								582
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 585.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "02/css/style.less",
+					"settings":
+					{
+						"buffer_size": 339,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								168,
+								168
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"equipment_",
+				"sga/02/css/sga/home/equipment_landing.less"
+			],
+			[
+				"style.l",
+				"sga/02/css/style.less"
+			],
+			[
+				"croll_cont",
+				"sga/01/css/manic/scroll_container.less"
+			],
+			[
+				"pin",
+				"sga/02/html/pin_container.html"
+			],
+			[
+				"images.les",
+				"sga/02/css/sga/sga_images.less"
+			],
+			[
+				"manic",
+				"sga/02/js/manic/Manic.js"
+			],
+			[
+				"mani",
+				"sga/01/js/manic/Manic.js"
+			],
+			[
+				"inde",
+				"sga/02/index.php"
+			],
+			[
+				"about_landing",
+				"sga/02/css/sga/home/about_landing.less"
+			],
+			[
+				"about_land",
+				"sga/01/_reference/w/about_landing.html"
+			],
+			[
+				"index",
+				"sga/02/index.php"
+			],
+			[
+				"contact_lan",
+				"sga/02/css/sga/home/contact_landing.less"
+			],
+			[
+				"about_clien",
+				"sga/02/css/sga/about/about_clients.less"
+			],
+			[
+				"homeconta",
+				"02/css/sga/home/contact_landing.less"
+			],
+			[
+				"sty",
+				"02/css/style.less"
+			],
+			[
+				"sga_ge",
+				"01/css/sga/sga_general.less"
+			],
+			[
+				"styl",
+				"02/css/style.less"
+			],
+			[
+				"masonry",
+				"sga/js/sga/photo/SgaMasonryGrid.js"
+			],
+			[
+				"indi",
+				"sga/js/sga/photo/SgaIndividualPhoto.js"
+			],
+			[
+				"indexdes",
+				"sga/index_desktop_pagecontainer.php"
+			],
+			[
+				"indexde",
+				"sga/index_desktop.php"
+			],
+			[
+				"fixed",
+				"sga/js/manic/ManicFixedColumnMasonry.js"
+			],
+			[
+				"photo",
+				"sga/html/photogallery_masonry.html"
+			],
+			[
+				"photogal",
+				"sga/html/photogallery_grid.html"
+			],
+			[
+				"lightbox",
+				"sga/html/photo_lightbox.html"
+			],
+			[
+				"tearsheetless",
+				"sga/css/sga/photo/photo_tearsheet.less"
+			],
+			[
+				"simple",
+				"sga/js/manic/ManicPageContainerSimple.js"
+			],
+			[
+				"index_de",
+				"sga/index_desktop_pagecontainer.php"
+			],
+			[
+				"sgatear",
+				"sga/js/sga/photo/SgaTearsheet.js"
+			],
+			[
+				"light",
+				"sga/html/photo_lightbox.html"
+			],
+			[
+				"debu",
+				"examples/basic/debugging.html"
+			],
+			[
+				"how",
+				"how_it_works.html"
+			],
+			[
+				"head",
+				"inc/header.inc"
+			],
+			[
+				"why",
+				"why_trax.html"
+			],
+			[
+				"case",
+				"case_studies.html"
+			],
+			[
+				"func",
+				"functions.php"
+			],
+			[
+				"part",
+				"js/jquery.particle_container.js"
+			],
+			[
+				"style",
+				"assets/css/style.less"
+			],
+			[
+				"lykehea",
+				"assets/js/lyke/lyke_header.js"
+			],
+			[
+				"lykecar",
+				"assets/js/lyke/lyke_carousel.js"
+			],
+			[
+				"thank",
+				"_twig_templates/thankyou.html.twig"
+			],
+			[
+				"cart",
+				"_twig_templates/template_cart.html"
+			],
+			[
+				"main",
+				"_css/main.css"
+			],
+			[
+				"css",
+				"_css/main.css"
+			],
+			[
+				"spry",
+				"_scripts/SpryTabbedPanels.js"
+			],
+			[
+				"spot",
+				"spotlight.htm"
+			],
+			[
+				"spo",
+				"spotlight.htm"
+			],
+			[
+				"in",
+				"/D/Localhost/roux_website/index.htm"
+			],
+			[
+				"ind",
+				"/D/Localhost/roux_website/index.htm"
+			],
+			[
+				"",
+				"untitled"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/D/Localhost/git/SGA Website.sublime-project"
+			],
+			[
+				"trax",
+				"/D/Localhost/trax/wp_01/wp-content/themes/trax/Trax WP Theme.sublime-project"
+			],
+			[
+				"tra",
+				"/D/Localhost/trax/wp_01/wp-content/themes/trax/Trax WP Theme.sublime-project"
+			],
+			[
+				"t",
+				"/D/Localhost/trax/wp_01/wp-content/themes/trax/Trax WP Theme.sublime-project"
+			],
+			[
+				"dis",
+				"/D/Localhost/distillery/w/Distillery W.sublime-project"
+			],
+			[
+				"syc",
+				"/D/Localhost/syc/18/SYC 18.sublime-project"
+			],
+			[
+				"dpi",
+				"/D/Localhost/dp/DPI Phase 01.sublime-project"
+			],
+			[
+				"sga leave",
+				"/D/Localhost/sga/prototype/leaves_02/SGA Prototype Leaves 02.sublime-project"
+			],
+			[
+				"trax w",
+				"/D/Localhost/trax/wp_01/wp-content/themes/trax/Trax WP Theme.sublime-project"
+			],
+			[
+				"dp",
+				"/D/Localhost/dp/DPI Phase 01.sublime-project"
+			],
+			[
+				"reign",
+				"/D/Localhost/git/Reignwood GIT.sublime-project"
+			],
+			[
+				"rie",
+				"/D/Localhost/git/Reignwood GIT.sublime-project"
+			],
+			[
+				"DP",
+				"/D/Localhost/dp/DPI Phase 01.sublime-project"
+			],
+			[
+				"git",
+				"/D/Localhost/git/Reignwood GIT.sublime-project"
+			],
+			[
+				"sga",
+				"/D/Localhost/sga/prototype/text/SGA Text.sublime-project"
+			],
+			[
+				"TRAX",
+				"/D/Localhost/trax/wp_01/wp-content/themes/trax/Trax WP Theme.sublime-project"
+			],
+			[
+				"re",
+				"/D/Localhost/git/Reignwood GIT.sublime-project"
+			],
+			[
+				"ri",
+				"/D/Localhost/git/Reignwood GIT.sublime-project"
+			],
+			[
+				"TRA",
+				"/D/Localhost/trax/wp_01/wp-content/themes/trax/Trax WP Theme.sublime-project"
+			],
+			[
+				"conta",
+				"/D/Localhost/_contact_form/01/Contact Form Template.sublime-project"
+			],
+			[
+				"sura",
+				"/D/Localhost/surbana/07/wp-content/themes/surbana/Surbana 07 Wordpress.sublime-project"
+			],
+			[
+				"sur",
+				"/D/Localhost/surbana/07/wp-content/themes/surbana/Surbana 07 Wordpress.sublime-project"
+			],
+			[
+				"lyke",
+				"/D/Localhost/lyke_02/Lyke 02.sublime-project"
+			],
+			[
+				"su",
+				"/D/Localhost/surbana/07/wp-content/themes/surbana/Surbana 07 Wordpress.sublime-project"
+			],
+			[
+				"surba",
+				"/D/Localhost/surbana/07/wp-content/themes/surbana/Surbana 07 Wordpress.sublime-project"
+			],
+			[
+				"motor",
+				"/D/Localhost/bmw/04/BMW Motorad 04.sublime-project"
+			],
+			[
+				"movi",
+				"/D/Localhost/sga/prototype/02/SGA Movie Component 02.sublime-project"
+			],
+			[
+				"l",
+				"/D/Localhost/lyke_02/Lyke 02.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 355.0,
+	"status_bar_visible": true
+}

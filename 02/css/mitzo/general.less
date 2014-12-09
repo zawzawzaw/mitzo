@@ -1,0 +1,75 @@
+
+@light-gold: #d4b768;
+
+body, html{
+  .body-font;
+  position: relative;
+}
+
+
+// from reset ... (cause i'm actually more used to it...)
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+ul, ol, li {
+  list-style-type: none;
+}
+strong {
+  font-weight: bold;
+}
+
+.fr { float: right; }
+.fl { float: left; }
+.cb { clear: both; }
+
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+// for pin container
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+  .header-font;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+  .transition-in();
+}
+
+
+.vertical-center{
+  width: 100%;
+  height: 100%;
+  display: table;
+
+  .vertical-center-container{
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+
+// highlight color
+::selection {
+  background: #000000;
+  color: #ffffff;
+}
+::-moz-selection {
+  background: #000000;
+  color: #ffffff;
+}
+
+input:focus, textarea:focus, keygen:focus, select:focus{
+  outline: none;
+}
