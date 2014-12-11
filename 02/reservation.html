@@ -237,200 +237,198 @@
 
 
 <script type="text/javascript" src="js/gsap/TweenMax.min.js"></script>
-<script type="text/javascript" src="js/gsap/TimelineMax.min.js"></script>
 <script type="text/javascript" src="js/gsap/plugins/ScrollToPlugin.min.js"></script>
 <script type="text/javascript" src="js/gsap/jquery.gsap.min.js"></script>
 
-<script type="text/javascript" src="js/libs/videojs/video.js"></script>
 
 <script type="text/javascript" src="js/manic/ManicFullscreenImage.js"></script>
-<script type="text/javascript" src="js/manic/ManicPinContainer.js"></script>
-<script type="text/javascript" src="js/manic/ManicVideoJSPlayer.js"></script>
 
-<script type="text/javascript" src="js/mitzo/MitzoHomePage.js"></script>
+<script type="text/javascript" src="js/mitzo/MitzoRegularPage.js"></script>
+<script type="text/javascript" src="js/mitzo/MitzoReservationPage.js"></script>
 
 <script type="text/javascript">
-  var home = null;
+  var page = null;
   jQuery(document).ready(function($) {
-    home = new Mitzo.HomePage({},$("body"));
+    page = new Mitzo.ReservationPage({},$("body"));
 
-    var position = $("#our-food-page-03").position().top;
-    console.log(position);
-    TweenMax.to($(window),0.8,{ scrollTo:{y:position},ease:Sine.easeInOut  })
+
+    var map;
+    function initialize() {
+      var styles = [
+          {
+              "featureType": "water",
+              "elementType": "geometry.fill",
+              "stylers": [
+                  {
+                      "color": "#d3d3d3"
+                  }
+              ]
+          },
+          {
+              "featureType": "all",
+              "elementType": "all",
+              "stylers": [
+                  {
+                      "saturation": -100
+                  },
+                  {
+                      "gamma": 1
+                  }
+              ]
+          },
+          {
+              "featureType": "all",
+              "elementType": "labels.text.stroke",
+              "stylers": [
+                  {
+                      "visibility": "off"
+                  }
+              ]
+          },
+          {
+              "featureType": "poi.business",
+              "elementType": "labels.text",
+              "stylers": [
+                  {
+                      "visibility": "off"
+                  }
+              ]
+          },
+          {
+              "featureType": "poi.business",
+              "elementType": "labels.icon",
+              "stylers": [
+                  {
+                      "visibility": "off"
+                  }
+              ]
+          },
+          {
+              "featureType": "poi.place_of_worship",
+              "elementType": "labels.text",
+              "stylers": [
+                  {
+                      "visibility": "off"
+                  }
+              ]
+          },
+          {
+              "featureType": "poi.place_of_worship",
+              "elementType": "labels.icon",
+              "stylers": [
+                  {
+                      "visibility": "off"
+                  }
+              ]
+          },
+          {
+              "featureType": "road",
+              "elementType": "geometry",
+              "stylers": [
+                  {
+                      "visibility": "simplified"
+                  }
+              ]
+          },
+          {
+              "featureType": "water",
+              "elementType": "all",
+              "stylers": [
+                  {
+                      "visibility": "on"
+                  },
+                  {
+                      "hue": "#50a5d1"
+                  },
+                  {
+                      "saturation": 50
+                  },
+                  {
+                      "gamma": 0
+                  }
+              ]
+          },
+          {
+              "featureType": "administrative.neighborhood",
+              "elementType": "labels.text.fill",
+              "stylers": [
+                  {
+                      "color": "#333333"
+                  }
+              ]
+          },
+          {
+              "featureType": "road.local",
+              "elementType": "labels.text",
+              "stylers": [
+                  {
+                      "color": "#333333"
+                  },
+                  {
+                      "weight": 0.5
+                  }
+              ]
+          },
+          {
+              "featureType": "transit.station",
+              "elementType": "labels.icon",
+              "stylers": [
+                  {
+                      "saturation": 50
+                  },
+                  {
+                      "gamma": 1
+                  }
+              ]
+          },
+          {
+              "featureType": "water",
+              "elementType": "all",
+              "stylers": [
+                  {
+                      "color": "#d3d3d3"
+                  }
+              ]
+          },
+          {
+              "featureType": "road.highway",
+              "elementType": "all",
+              "stylers": [
+                  {
+                      "color": "#ffffff"
+                  }
+              ]
+          }
+      ];
+
+      var myLatlng = new google.maps.LatLng(1.303162,103.836568);
+      var mapOptions = {
+        mapTypeControlOptions: {  
+            mapTypeIds: ['Styled']  
+        },  
+        zoom: 18,
+        center: myLatlng,
+        disableDefaultUI: true,   
+        mapTypeId: 'Styled'
+      };
+      map = new google.maps.Map(document.getElementById('google-map-canvas'),
+        mapOptions);
+      var styledMapType = new google.maps.StyledMapType(styles, { name: 'Styled' });  
+      map.mapTypes.set('Styled', styledMapType);
+
+      var marker = new google.maps.Marker({
+        position: myLatlng,
+        map: map,
+        title: 'Mitzo'
+      });
+    }
+
+    //initialize();
+    TweenMax.delayedCall(1,initialize,[],this);
+
   });
 
-  var map;
-  function initialize() {
-    var styles = [
-        {
-            "featureType": "water",
-            "elementType": "geometry.fill",
-            "stylers": [
-                {
-                    "color": "#d3d3d3"
-                }
-            ]
-        },
-        {
-            "featureType": "all",
-            "elementType": "all",
-            "stylers": [
-                {
-                    "saturation": -100
-                },
-                {
-                    "gamma": 1
-                }
-            ]
-        },
-        {
-            "featureType": "all",
-            "elementType": "labels.text.stroke",
-            "stylers": [
-                {
-                    "visibility": "off"
-                }
-            ]
-        },
-        {
-            "featureType": "poi.business",
-            "elementType": "labels.text",
-            "stylers": [
-                {
-                    "visibility": "off"
-                }
-            ]
-        },
-        {
-            "featureType": "poi.business",
-            "elementType": "labels.icon",
-            "stylers": [
-                {
-                    "visibility": "off"
-                }
-            ]
-        },
-        {
-            "featureType": "poi.place_of_worship",
-            "elementType": "labels.text",
-            "stylers": [
-                {
-                    "visibility": "off"
-                }
-            ]
-        },
-        {
-            "featureType": "poi.place_of_worship",
-            "elementType": "labels.icon",
-            "stylers": [
-                {
-                    "visibility": "off"
-                }
-            ]
-        },
-        {
-            "featureType": "road",
-            "elementType": "geometry",
-            "stylers": [
-                {
-                    "visibility": "simplified"
-                }
-            ]
-        },
-        {
-            "featureType": "water",
-            "elementType": "all",
-            "stylers": [
-                {
-                    "visibility": "on"
-                },
-                {
-                    "hue": "#50a5d1"
-                },
-                {
-                    "saturation": 50
-                },
-                {
-                    "gamma": 0
-                }
-            ]
-        },
-        {
-            "featureType": "administrative.neighborhood",
-            "elementType": "labels.text.fill",
-            "stylers": [
-                {
-                    "color": "#333333"
-                }
-            ]
-        },
-        {
-            "featureType": "road.local",
-            "elementType": "labels.text",
-            "stylers": [
-                {
-                    "color": "#333333"
-                },
-                {
-                    "weight": 0.5
-                }
-            ]
-        },
-        {
-            "featureType": "transit.station",
-            "elementType": "labels.icon",
-            "stylers": [
-                {
-                    "saturation": 50
-                },
-                {
-                    "gamma": 1
-                }
-            ]
-        },
-        {
-            "featureType": "water",
-            "elementType": "all",
-            "stylers": [
-                {
-                    "color": "#d3d3d3"
-                }
-            ]
-        },
-        {
-            "featureType": "road.highway",
-            "elementType": "all",
-            "stylers": [
-                {
-                    "color": "#ffffff"
-                }
-            ]
-        }
-    ];
 
-    var myLatlng = new google.maps.LatLng(1.303162,103.836568);
-    var mapOptions = {
-      mapTypeControlOptions: {  
-          mapTypeIds: ['Styled']  
-      },  
-      zoom: 18,
-      center: myLatlng,
-      disableDefaultUI: true,   
-      mapTypeId: 'Styled'
-    };
-    map = new google.maps.Map(document.getElementById('google-map-canvas'),
-      mapOptions);
-    var styledMapType = new google.maps.StyledMapType(styles, { name: 'Styled' });  
-    map.mapTypes.set('Styled', styledMapType);
-
-    var marker = new google.maps.Marker({
-      position: myLatlng,
-      map: map,
-      title: 'Mitzo'
-    });
-  }
-
-  initialize();
 
 
 
