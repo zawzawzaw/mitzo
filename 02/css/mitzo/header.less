@@ -74,8 +74,9 @@
         line-height: 20px;
         height: 20px;
         text-transform: uppercase;
-        color: #ffffff;
+        color: #ffffff!important;
         letter-spacing: 0.04em;
+        text-decoration: none!important;
       }
 
       &:after{
@@ -96,6 +97,7 @@
 
       &.selected,
       &:hover{
+        text-decoration: none!important;
 
         &:after{
           .opacity(1);
@@ -108,7 +110,7 @@
 
   &.grey-version{
     ul > li > a {
-      color: #868483;
+      color: #868483!important;
     }
   }
 }

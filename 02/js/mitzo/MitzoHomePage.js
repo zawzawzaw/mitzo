@@ -88,6 +88,7 @@ Mitzo.HomePage = Class.extend({
     this.home_videojs.addEventListener("on_video_play", this.on_video_play.bind(this));
     this.home_videojs.addEventListener("on_video_end", this.on_video_end.bind(this));
 
+    this.home_videojs.video_container.click(this.on_home_video_pause_click.bind(this))
     this.home_videojs_play_btn = this.element.find("#home-videojs .play-button")
     this.home_videojs_play_btn.click(this.on_home_video_play_click.bind(this));
 
@@ -149,13 +150,13 @@ Mitzo.HomePage = Class.extend({
     }
   },
   on_window_resize: function(event){
-    var window_height = this.window.height();
-    var target_height = window_height - 393;      // trial and error
-    console.log("target_height: " + target_height);
+    // var window_height = this.window.height();
+    // var target_height = window_height - 393;      // trial and error
+    // console.log("target_height: " + target_height);
 
-    $("#home-videojs").height(target_height);
-    console.log("target_height: " + target_height);
-    $("#home-video-sidebar").outerHeight(target_height);
+    // $("#home-videojs").height(target_height);
+    // console.log("target_height: " + target_height);
+    // $("#home-video-sidebar").outerHeight(target_height);
     
   },
 
@@ -176,9 +177,18 @@ Mitzo.HomePage = Class.extend({
 
   on_home_video_play_click: function(event){
     event.preventDefault();
-    this.home_videojs.player.currentTime( 0 );        // for replay as well.
+    if(this.home_videojs.is_paused==false) {
+      this.home_videojs.player.currentTime( 0 );        // for replay as well.
+    }
+    
     this.home_videojs.play_video();
     TweenMax.to(this.home_videojs_play_btn, 0.4, {autoAlpha:0});
+  },
+
+  on_home_video_pause_click: function(event){
+    event.preventDefault();
+    this.home_videojs.pause_video();
+    TweenMax.to(this.home_videojs_play_btn, 0.4, {autoAlpha:1});
   }
 
 });
