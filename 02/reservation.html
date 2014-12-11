@@ -94,11 +94,11 @@
                   <h5>OPERATING HOURS</h5>
                   <p>Lunch: 12pm to 2.30pm<br>
                   Dinner: 6.30pm to 10.30pm<br>
-                  Bar (Supper):
-                  <ul>
-                    <li>6.30pm to 12am last order (Sun to Thurs)</li>
-                    <li>6.30pm to 1am last order (Fri, Sat, eve of Public Holidays and Public Holidays)</li>
-                  </ul></p>
+                  Bar (Supper): 6.30pm to 12am last order (Sun to Thurs)
+                    <ul>
+                      <li>6.30pm to 1am last order (Fri, Sat, eve of Public Holidays and Public Holidays)</li>
+                    </ul>
+                  </p>
 
                   <!-- <a href="#" class="link-to">Make a Reservation</a> -->
                 </div>
@@ -254,9 +254,7 @@
   jQuery(document).ready(function($) {
     home = new Mitzo.HomePage({},$("body"));
 
-    var position = $("#our-food-page-03").position().top;
-    console.log(position);
-    TweenMax.to($(window),0.8,{ scrollTo:{y:position},ease:Sine.easeInOut  })
+   
   });
 
   var map;
