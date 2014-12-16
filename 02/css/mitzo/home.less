@@ -102,6 +102,10 @@
     margin: 0px auto;
     text-align: center;
 
+    @media all and (max-width: 900px) {
+      top: 20px;
+    }
+
     h2{
       font-size: 29px;
       line-height: 40px;
@@ -120,6 +124,11 @@
       margin-top: 35px;
       font-size: 15px;
       line-height: 21px;
+
+      @media all and (max-width: 900px) {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
     }
   }
 
@@ -141,9 +150,11 @@
 //                                        
 
 #home-page-02{
+  height: 900px;
+
   .title-container{
     text-align: center;
-    //margin-top: 140px;
+    margin-top: 140px;
     margin-bottom: 55px;
 
     .subtitle{
@@ -155,7 +166,6 @@
       color: #c7a33f;
       text-transform: uppercase;
       margin-bottom: 1px;
-
     }
     .title{
       .gotham-bold;
@@ -202,6 +212,24 @@
       color: #636363;
       margin-bottom: 20px;
     }
+
+    a {
+      text-decoration: none;
+      button {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        width: 290px;
+      }
+      &:hover {
+        &:hover {
+          .cta-btn {
+            background: #2B2B2B;
+          }
+        }
+      }
+    }
+    
   }
 
 }

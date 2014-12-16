@@ -48,7 +48,7 @@
     text-align: center;
     //margin-top: 140px;
     margin-bottom: 55px;
-    margin-top: 70px;
+    margin-top: 135px;
 
     .subtitle{
       .gotham-bold;
@@ -204,9 +204,9 @@
 
 #our-food-page-03, #our-food-page-04 {
   background-color: #f4f2f1;
-  max-height: 700px;
+  /*max-height: 700px;*/
   .title-container{
-    margin-top: 58px;
+    margin-top: 73px;
   }
   #extra {
     .title {
@@ -228,13 +228,35 @@
   }
 }
 
+#our-food-page-03 {
+  height: 700px;
+}
+
+#our-food-page-02 {
+  height: 900px;
+}
+
 #our-food-page-04 {
-  max-height: 900px!important;
+  height: 900px!important;
+}
+
+.the-bar {
+ height: 1000px!important; 
+}
+
+.contact {
+  height: 800px!important;
 }
 
 #particulars {
   margin-left: 107px;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
+}
+
+.newsletter {
+  text-align: center;
+  margin: 17px auto;
+  display: block;
 }
 
 #reservation {
@@ -246,7 +268,7 @@
     margin-right: 15px;
   }
 
-  input {
+  input[type="text"] {
     width: 380px;
     height: 40px;
     margin-bottom: 8px;
@@ -286,16 +308,21 @@
   
   .date {
     text-align: right;
-    display: block;
+    margin-right: 64px;
+    margin-left: 10px;
 
   }
   .time {
     text-align: right;
-    display: block;
+    margin-left: -6px;
   }
   .party-size {
-   text-align: center;
-    display: block; 
+    text-align: center;
+    margin-left: 75px;
+  }
+
+  .custom-col {
+    display: inline-block;
   }
 
   div.dropdown {
@@ -345,7 +372,7 @@ input.error {
   color: #F00!important;
 }
 
-#food-carousel {
+#food-carousel, #location-carousel {
   .carousel-control {
     background: none;
     width: 39px;

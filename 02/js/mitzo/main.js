@@ -31,35 +31,35 @@ $(document).ready(function(){
 		alert("A pop-up window was blocked! Please allow pop-up from browser's setting.");
 	}
 
-	window.fbAsyncInit = function() {
-	    FB.init({
-	      appId      : '822484331149732',
-	      xfbml      : true,
-	      version    : 'v2.2'
-	    });
-  	};
+	// window.fbAsyncInit = function() {
+	//     FB.init({
+	//       appId      : '822482611149904',
+	//       xfbml      : true,
+	//       version    : 'v2.2'
+	//     });
+ //  	};
 
-	  (function(d, s, id){
-	     var js, fjs = d.getElementsByTagName(s)[0];
-	     if (d.getElementById(id)) {return;}
-	     js = d.createElement(s); js.id = id;
-	     js.src = "//connect.facebook.net/en_US/sdk.js";
-	     fjs.parentNode.insertBefore(js, fjs);
-	   }(document, 'script', 'facebook-jssdk'));
+	//   (function(d, s, id){
+	//      var js, fjs = d.getElementsByTagName(s)[0];
+	//      if (d.getElementById(id)) {return;}
+	//      js = d.createElement(s); js.id = id;
+	//      js.src = "//connect.facebook.net/en_US/sdk.js";
+	//      fjs.parentNode.insertBefore(js, fjs);
+	//    }(document, 'script', 'facebook-jssdk'));
 
-	$('.facebook').on('click', function(e){
-        e.preventDefault();
-        FB.ui(
-         {
-            method: 'feed',
-            name: 'Mitzo',
-            link: 'http://www.mitzo.sg',
-            picture: 'http://clients.manic.com.sg/mitzo/html2/images/icons/logo_mitzo.png',
-            caption: 'Mitzo',
-            description: '',
-            message: ''
-        }, function(response){});
-    });
+	// $('.facebook').on('click', function(e){
+ //        e.preventDefault();
+ //        FB.ui(
+ //         {
+ //            method: 'feed',
+ //            name: 'MITZO',
+ //            link: 'http://www.mitzo.sg',
+ //            picture: 'http://clients.manic.com.sg/mitzo/html2/images/icons/logo_mitzo.png',
+ //            caption: 'A BRAND NEW DINING EXPERIENCE.',
+ //            description: '',
+ //            message: ''
+ //        }, function(response){});
+ //    });
 
     $('#date').mask("99 / 99 / 9999",{placeholder:"   "}).val("");
 
@@ -152,31 +152,103 @@ $(document).ready(function(){
 		    	reserveJSON.date = $('#date').val();
 		    	reserveJSON.time = $('#time').val();
 		    	reserveJSON.party_size = $('#party_size').val();
+		    	
+		    	if($('#newsletter').prop('checked')==true) {
+		    		var mailinglistJSON = {};
+				    	mailinglistJSON.email = $('#email').val();
 
-		    	console.log(reserveJSON)
+				    // console.log(mailinglistJSON); return false;
+
+			    	// abort any pending request
+					if (mailrequest) {
+					  	mailrequest.abort();
+					}
+
+			        mailrequest = makeRequest(mailinglistJSON, "http://clients.manic.com.sg/mitzo/html2/mailinglist.php" , "POST");
+
+					mailrequest.done(function(){
+						var result = $.parseJSON(mailrequest.responseText);
+						
+						if(result) {
+							console.log(result);   
+						}
+					});
+		    	}
+
+		    	// console.log(reserveJSON)
 		    	// return false;
 
 		    	// abort any pending request
 				if (request) {
 				  	request.abort();
-				}
+				}	
 
-	        request = makeRequest(reserveJSON, "http://clients.manic.com.sg/mitzo/html2/reservation.php" , "POST");
+		        request = makeRequest(reserveJSON, "http://clients.manic.com.sg/mitzo/html2/reservation.php" , "POST");
 
-			request.done(function(){
-				var result = $.parseJSON(request.responseText);
-				
-				if(result) {
-					console.log(result);   
-					$('#msg').html('<p style="color:red;">Thanks. Your reservation was successful! We will contact you as soon as possible.</p>');
-					//.delay(5000).fadeOut()
-					$('#reserve-now').attr("disabled", true);   	
-				}else {
-					$('#msg').html('<p style="color:red;">something went wrong!</p>').delay(5000).fadeOut();
-				}
-			});
+				request.done(function(){
+					var result = $.parseJSON(request.responseText);
+					
+					if(result) {
+						console.log(result);   
+						$('#msg').html('<p style="color:red;">Thanks. Your reservation was successful! We will contact you as soon as possible.</p>');
+						//.delay(5000).fadeOut()
+						$('#reserve-now').attr("disabled", true);   	
+					}else {
+						$('#msg').html('<p style="color:red;">something went wrong!</p>').delay(5000).fadeOut();
+					}
+				});
 
 		}
 
     });
+
+	$('#footer-mailing-list').validate({
+		onkeyup: false,
+		focusInvalid: false,
+		rules : {
+			email : {
+				'required' : true,
+				'email' : true
+			}
+		},
+		messages : {
+			email : 'Missing email'
+		},
+		showErrors: function(errorMap, errorList) {
+			for(var error in errorMap){
+				$(':text[name='+error+']').val(errorMap[error]).addClass('error');//append err msg in all text field and hightlight
+			}
+		}
+	});
+
+	var mailrequest;
+	$('#mailing-list-email-submit').on('click', function(e){
+		e.preventDefault();
+		if($('#footer-mailing-list').valid()) {
+
+	        var mailinglistJSON = {};
+		    	mailinglistJSON.email = $('#mailing-list-email-txt').val();
+		    	console.log(mailinglistJSON)
+
+		    	// abort any pending request
+				if (mailrequest) {
+				  	mailrequest.abort();
+				}
+
+	        mailrequest = makeRequest(mailinglistJSON, "http://clients.manic.com.sg/mitzo/html2/mailinglist.php" , "POST");
+
+			mailrequest.done(function(){
+				var result = $.parseJSON(mailrequest.responseText);
+				
+				if(result) {
+					console.log(result);   
+					$('#footer-msg').html('<p style="color:white;width:300px;">Thanks. Your email is added to our mailing list.</p>');
+					$('#mailing-list-email-submit').attr("disabled", true);   	
+				}else {
+					$('#footer-msg').html('<p style="color:red;width:300px;">something went wrong!</p>').delay(5000).fadeOut();
+				}
+			});
+
+		}
+	});
 });

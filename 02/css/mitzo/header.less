@@ -29,6 +29,12 @@
     cursor: pointer;
     margin-top: 48px;
 
+    @media all and (max-width: 900px) {
+      text-align: center;
+      display: block;
+      margin: 30px auto;
+    }
+
     h1{
       .display-inline-block();
       text-indent: -9999px;
@@ -36,8 +42,16 @@
   }
 
 
-  &.white-bg-version{
+    &.white-bg-version{
     //background: #ffffff;
+    .logo_mitzo {
+      margin-top: 27px!important;
+    }
+
+    #main-menu {
+      margin-top: 55px!important;
+    }
+
     &:before{
       top: 0;
     }
