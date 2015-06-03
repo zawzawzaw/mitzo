@@ -251,4 +251,15 @@ $(document).ready(function(){
 
 		}
 	});
+
+
+	$('.mobile-menu-btn').on('click', function(e){
+		$('.mobile-menu').slideToggle();
+		$('#mitzo-header').toggleClass('change');
+	});
+
+	$('.chef-list a').click(function (e) {
+      e.preventDefault();
+      $(this).tab('show');
+    });
 });

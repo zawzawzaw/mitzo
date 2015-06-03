@@ -13,12 +13,21 @@
     margin: 0px auto;
     text-align: center;
 
+    @media all and (max-width: 900px) {
+      top: 20px;
+    }
+
     h2{
       font-size: 29px;
       line-height: 40px;
       text-transform: uppercase;
       letter-spacing: 0.04em;
       margin-bottom: 30px;
+
+      @media all and (max-width: 900px) {
+        font-size: 18px;
+        line-height: 28px;
+      }
     }
     hr{
       border: none;
@@ -31,6 +40,13 @@
       margin-top: 35px;
       font-size: 15px;
       line-height: 21px;
+
+      @media all and (max-width: 900px) {
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 12px;
+        line-height: 17px;
+      }
     }
   }
 
@@ -60,6 +76,11 @@
       text-transform: uppercase;
       margin-bottom: 1px;
 
+      @media all and (max-width: 900px) {
+        font-size: 13px;
+        line-height: 25px;
+      }
+
     }
     .title{
       .gotham-bold;
@@ -70,6 +91,11 @@
       color: #000000;
       text-transform: uppercase;
       margin-bottom: 30px;
+
+      @media all and (max-width: 900px) {
+        font-size: 25px;
+        line-height: 36px;      
+      }
     }
     hr{
       border: none;
@@ -80,18 +106,73 @@
     }
   }
 
-  #our-food-sidebar, #the-bar-sidebar, #location-sidebar, #contact-sidebar {
+  .chef-list {
+    text-align: center;
+    display: block;
+    margin-bottom: 44px;
+
+    @media all and (max-width: 900px) {
+      li {
+        display: block!important;
+        text-align: center;
+        border: none!important;
+        margin-bottom: 10px;
+      }
+    }
+
+    li {
+      display: inline-block;
+      font-size: 16px;
+      .gotham-medium;
+      border-left: 1px solid #C7A33F;
+      border-right: 1px solid #C7A33F;
+      padding-left: 15px;
+      padding-right: 15px;
+      &:first-child {
+        border-left: 0px!important;
+        border-right: 0px!important;
+      }
+      &:last-child {
+        border-left: 0px!important;
+        border-right: 0px!important;
+      }
+      a {
+        color: #C7A33F;
+        text-decoration: none;
+        .transition(0s);
+        &:hover {
+          padding-bottom: 4px;
+          border-bottom: 1px solid #C7A33F;
+        }
+      }
+    }
+  }
+
+  #our-food-sidebar, #the-bar-sidebar, #location-sidebar, #contact-sidebar, #the-people-sidebar {
     border: 1px solid #c7a33f;
     padding: 30px 40px;
     margin-right: 10px;
     /*height: 444px;*/
     overflow: hidden;
 
+    @media all and (max-width: 900px) {
+      margin-right: 0px;
+      height: auto!important;
+    }
+
     .title{
-      .gotham-bold;
+      /*.gotham-bold;*/
+      .harriet-media-italic;
       font-size: 18px;
-      line-height: 20px;
+      line-height: 23px;
       color: #c7a33f;
+      text-align: center;
+    }
+    .subtitle {
+      .gotham-medium;
+      font-size: 11px;
+      color: #c7a33f;
+      text-transform: uppercase;
       text-align: center;
     }
     hr{
@@ -117,6 +198,9 @@
         }
         .cta-btn {
           margin: 0 auto;
+          @media all and (max-width: 900px) {
+            margin: 5px auto;
+          }
         }
       }
     }
@@ -138,7 +222,7 @@
     }
   }
 
-  #the-bar-sidebar {
+  #the-bar-sidebar, #the-people-sidebar {
     a.link-to {
       margin-top: 7px!important;
       position: relative;
@@ -146,6 +230,18 @@
     }
     p {
        margin-bottom: 11px!important;
+    }
+  }
+
+  #marco, #jacek {
+    #the-people-sidebar {
+      height: 513px;
+    }
+  }
+  #the-people-sidebar {
+    height: 370px;
+    hr {
+      margin-bottom: 45px!important;
     }
   }
 
@@ -172,11 +268,12 @@
       font-size: 13px;
       text-align: center;
       color: #636363;
-      border-bottom: 1px solid #d8d8d8;
+      /*border-bottom: 1px solid #d8d8d8;*/
       padding-bottom: 0px;
       width: 132px;
       line-height: 12px;
-      margin: 10px auto;
+      /*margin: 10px auto;*/
+      margin: 2px auto;
     }
 
     p {
@@ -209,6 +306,9 @@
     margin-top: 73px;
   }
   #extra {
+    @media all and (max-width: 900px) {
+      margin-top: 50px;
+    }
     .title {
       .gotham-bold;
       font-size: 18px;
@@ -228,28 +328,53 @@
   }
 }
 
-#our-food-page-03 {
-  height: 700px;
-}
-
 #our-food-page-02 {
   height: 900px;
+  @media all and (max-width: 900px) {
+    height: 1380px;
+  }
+}
+
+#our-food-page-03 {
+  height: 700px;
+  @media all and (max-width: 900px) {
+    height: 1090px!important;
+  }
 }
 
 #our-food-page-04 {
   height: 900px!important;
+  @media all and (max-width: 900px) {
+    height: 1600px!important;
+  }
 }
 
 .the-bar {
- height: 1000px!important; 
+  height: 1000px!important; 
+  @media all and (max-width: 900px) {
+    height: 1800px!important;
+  }
+}
+
+.the-people {
+  height: 1000px!important; 
+  @media all and (max-width: 900px) {
+    height: 1270px!important;
+  }
 }
 
 .contact {
   height: 800px!important;
+  @media all and (max-width: 900px) {
+    height: 1380px!important;
+  }
 }
 
 #particulars {
   margin-left: 107px;
+  @media all and (max-width: 900px) {
+    margin-left: 0px;
+  }
   /*margin-bottom: 20px;*/
 }
 
@@ -266,10 +391,16 @@
     font-size: 14px;
     color: #636363;
     margin-right: 15px;
+    @media all and (max-width: 900px) {
+      margin-right: 0px;
+    }
   }
 
   input[type="text"] {
     width: 380px;
+    @media all and (max-width: 900px) {
+      width: 95%;
+    }
     height: 40px;
     margin-bottom: 8px;
     padding-left: 8px;
@@ -285,10 +416,16 @@
 
   input[name="phone"], input[name="mobile"] {
     width: 180px!important;
+    @media all and (max-width: 900px) {
+      width: 95%!important;
+    }
   }
 
   textarea {
     width: 380px;
+    @media all and (max-width: 900px) {
+      width: 95%;
+    }
     height: 137px;
     padding-left: 8px;
     .round(5px);
@@ -310,19 +447,37 @@
     text-align: right;
     margin-right: 64px;
     margin-left: 10px;
+    @media all and (max-width: 900px) {
+      text-align: center;
+      margin-right: 0;
+      margin-left: 24px
+    }
 
   }
   .time {
     text-align: right;
     margin-left: -6px;
+    @media all and (max-width: 900px) {
+      text-align: center;
+      margin-right: 0;
+      margin-left: 28px;
+    }
   }
   .party-size {
     text-align: center;
     margin-left: 75px;
+    @media all and (max-width: 900px) {
+      margin-right: 0;
+      margin-left: -20px;
+    }
   }
 
   .custom-col {
     display: inline-block;
+    @media all and (max-width: 900px) {
+      display: block;
+      height: 55px;
+    }
   }
 
   div.dropdown {
@@ -346,6 +501,9 @@
       -webkit-appearance: none;
       -moz-appearance: none;
       appearance: none;
+      -moz-appearance: none;
+      text-indent: 0.01px;
+      text-overflow: "";
     }
   }
 }
@@ -353,6 +511,9 @@
 #reserve-now {
   margin: 10px auto;
   display: block;
+  @media all and (max-width: 900px) {
+    margin: 1px auto;
+  }
 }
 
 #msg {

@@ -22,6 +22,9 @@
     height: 140px;
     background: #ffffff;
     .transition-in();
+    @media all and (max-width: 900px) {
+      height: 75px;
+    }
 
   }
 
@@ -31,8 +34,10 @@
 
     @media all and (max-width: 900px) {
       text-align: center;
-      display: block;
-      margin: 30px auto;
+      display: inline-block;
+      /*margin: 30px auto;*/
+      margin-left: 20px;
+      margin-top: 25px;
     }
 
     h1{
@@ -41,21 +46,61 @@
     }
   }
 
+  .mobile_logo_mitzo {
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 80px;
+  }
 
-    &.white-bg-version{
+  .mobile-menu-btn {
+    font-size: 21px;
+    text-align: center;
+    margin-top: 32px;
+    margin-left: -11px;
+    color: #FFF;
+  }
+
+
+  &.white-bg-version, &.change{
     //background: #ffffff;
     .logo_mitzo {
       margin-top: 27px!important;
     }
 
+    .mobile_logo_mitzo {
+      margin-top: 15px;
+    }
+
+    .mobile-menu-btn {
+      margin-top: 25px;
+    }
+
     #main-menu {
-      margin-top: 55px!important;
+      margin-top: 55px;
     }
 
     &:before{
       top: 0;
     }
+
+    &.change:before {
+      height: 230px;
+    }
+
+    .mobile-menu-btn {
+      color: #000;
+    }
+
+    ul {
+      li {
+        a {
+          color: #000!important;
+        }
+      }
+    }
   }
+
+  
 
 }
 
@@ -63,10 +108,15 @@
 
 
 
-
+.mobile-menu {
+  display: none;
+}
 
 #main-menu{
   margin-top: 67px;
+  @media all and (max-width: 900px) {
+    margin-top: 0px!important;
+  }
 
   ul{
     font-size: 0;
@@ -77,6 +127,13 @@
       .display-inline-block();
       margin-right: 50px;
       position: relative;
+
+      @media all and (max-width: 900px) {
+        display: block;
+        text-align: center;
+        margin-right: 0px;
+        margin-bottom: 5px;
+      }
 
       &:last-child{
         margin-right: 0px;
